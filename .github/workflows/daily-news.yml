@@ -34,7 +34,7 @@ jobs:
           python scripts/collect_news.py --save-images
       
       - name: Upload output files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: daily-news-output
           path: |
