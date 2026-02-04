@@ -25,7 +25,7 @@ class ArticleFormatter:
         
         for category in ['match', 'transfer', 'club', 'player', 'interview']:
             if news_data.get(category):
-                article section = self._generate_category_section(
+                section = self._generate_category_section(
                     category, 
                     news_data[category]
                 )
